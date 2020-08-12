@@ -20,7 +20,12 @@
     margin-right: 35px;
 }
 
-#player-cards {
+.homeInfo {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.player-cards {
     margin-top: 25px;
     width: 60%;
     margin-left: auto;
@@ -29,7 +34,46 @@
 
 .card-img-top {
     margin-top: 90px;
-    height: 350px;
+    height: 270px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-text {
+    text-align: center;
+}
+
+/* .playersImg {
+    height: 300px;
+} */
+
+.player {
+    border: none;
+}
+
+.names {
+    text-align: center;
+    padding: 5px;
+}
+
+button {
+    border-radius: 18px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color:#bf4b4b;
+    color: white;
+    font-size: 10px;
+}
+
+#playersButton {
+    text-align: center;
+}
+
+h6 {
+    margin-bottom: 0;
 }
 
 .card-title {
@@ -40,9 +84,18 @@
     text-align: center;
 }
 
-h3 {
+h4 {
     text-align: center;
     margin-top: 10px;
+}
+
+#meetThePlayers {
+    padding-top: 30px;
+}
+
+#howInfo {
+    text-align: center;
+    padding: 30px;
 }
 
 .PromoBoxedThumb {
@@ -53,8 +106,38 @@ h3 {
     text-align: center;
 }
 
+.howItWorksImg {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 @media (min-width: 991px) {
     .navbar {
         height: 110px;
     }
+    .playersImg {
+        height: 325px;
+    }
+    .homepagePlayers {
+        height: 325px;
+    }
 } 
+
+@media (max-width: 450px) {
+    .hp-img-title {
+        font-size: 20px;
+    }
+    #playersPage {
+        width: 100%;
+    }
+    .homepagePlayers {
+        height: 195px;
+        width: 195px;
+    }
+    .playersImg {
+        height: 270px;
+    }
+}

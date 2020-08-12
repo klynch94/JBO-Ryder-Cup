@@ -2,132 +2,185 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <title>JBO Ryder Cup</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>JBO Ryder Cup</title>
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="./index.html"><img src="assets/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./players.html">Players</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Tournament Details
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="./courses.html">Golf Courses</a>
-                        <a class="dropdown-item" href="./hospitality.html">Hospitality</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./about.html">About</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- homepage image with text over -->
-    <div class="media-hp card text-white">
-        <img src="./assets/homepage.png" id="homepage-img" class="card-img" alt="ryder cup image">
-        <div class="card-img-overlay">
-          <h5 class="hp-img-title">2020 JBO Ryder Cup</h5>
-        </div>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="./index.html"><img src="assets/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./players.html">Players</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Tournament Details
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./courses.html">Golf Courses</a>
+            <a class="dropdown-item" href="./hospitality.html">Hospitality</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About</a>
+        </li>
+      </ul>
     </div>
-    <h3>Meet the Players</h3>
-    <!-- player pictures -->
-    <div class="row row-cols-1 row-cols-md-2" id="player-cards">
-        <div class="col mb-4">
-          <div class="card">
-            <img src="./assets/chewy.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Matthew Zabrin</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="./assets/bay.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Zachary Bay</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="./assets/dubois.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Jason Dubois</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="./assets/kieran.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Kieran Lynch</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="./assets/eric.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Eric Sagadin</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="./assets/murg.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Steven Murgia</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="./assets/placeholder.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">TBD</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="./assets/placeholder.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">TBD</h5>
-            </div>
-          </div>
+  </nav>
+
+  <!-- homepage image with text over -->
+  <div class="media-hp card text-white">
+    <img src="./assets/homepage.png" id="homepage-img" class="card-img" alt="ryder cup image">
+    <div class="card-img-overlay">
+      <h5 class="hp-img-title">2020 JBO Ryder Cup</h5>
+    </div>
+  </div>
+
+  <!-- how it works section -->
+  <div id="howItWorks">
+    <div id="howInfo">
+      <h4>How It Works</h4>
+      <div>The JBO Ryder cup is played on an annual basis between 2 teams designated as the United States and Europe. It
+        consists of 3 match-play sessions played over 2 days to determine the yearly champions.</div>
+    </div>
+    <div class="card-deck homeInfo">
+      <div class="card">
+        <img
+          src="https://rydercup.brightspotcdn.com/dims4/default/b20d564/2147483647/strip/true/crop/125x125+0+0/resize/100x100!/format/webp/quality/90/?url=http%3A%2F%2Fgolf-brightspot.s3.amazonaws.com%2Fryder%2F3f%2F0a%2F085b64fc31117a633c61e84ac4dc%2Fteam-selection-0.png"
+          class="card-img-top howItWorksImg" alt="team selection">
+        <div class="card-body">
+          <h6 class="card-title">Team Selection</h6>
+          <p class="card-text">Both teams will be selected the day before the tournament (Friday). We will begin with
+            three groups of players sorted by their submitted handicaps. These groups will be +15-20, +20-25, +25. The
+            day before the tournament, we will pull names at random from each of these groups to match up evenly on both
+            sides.</p>
         </div>
       </div>
+      <div class="card">
+        <img
+          src="https://rydercup.brightspotcdn.com/dims4/default/d65dde7/2147483647/strip/true/crop/120x120+0+0/resize/100x100!/format/webp/quality/90/?url=http%3A%2F%2Fgolf-brightspot.s3.amazonaws.com%2Fryder%2F22%2F3b%2F8fb30a094a1d899147b714963491%2Frc.png"
+          class="card-img-top howItWorksImg" alt="...">
+        <div class="card-body">
+          <h6 class="card-title">Ryder Cup Format</h6>
+          <p class="card-text">There will be three rounds in total over the course of two days. The first day will
+            consist of Fourball and Best Ball, and finishing our Sunday round with Singles matchplay.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="https://rydercup.brightspotcdn.com/dims4/default/1acd69c/2147483647/strip/true/crop/125x125+0+0/resize/100x100!/format/webp/quality/90/?url=http%3A%2F%2Fgolf-brightspot.s3.amazonaws.com%2Fryder%2F04%2Fdc%2F6c568638de58902893dfa0e0d6b5%2Fscoring-0.png"
+          class="card-img-top howItWorksImg" alt="...">
+        <div class="card-body">
+          <h6 class="card-title">Ryder Cup Scoring</h6>
+          <p class="card-text">Each match is worth one point, with matches ending in a draw worth a half point to each
+            side. The team with the most points at the end of the weekend is the new Ryder Cup Champion.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <!-- linking jquery and everything else for bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
-        integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
-        crossorigin="anonymous"></script>
+
+  <h4 id="meetThePlayers">Meet the Players</h4>
+  <!-- player pictures -->
+  <div class="row row-cols-1 row-cols-md-2 player-cards" id="player-cards">
+    <div class="col mb-4">
+      <div class="card player">
+        <img src="./assets/chewyS.jpg" class="card-img-top homepagePlayers" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Matthew Zabrin</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card player">
+        <img src="./assets/bayS.jpg" class="card-img-top homepagePlayers" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Zachary Bay</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card player">
+        <img src="./assets/duboisS.jpg" class="card-img-top homepagePlayers" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Jason Dubois</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card player">
+        <img src="./assets/KieranHeadshot.jpg" class="card-img-top homepagePlayers" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Kieran Lynch</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card player">
+        <img src="./assets/ericS.jpg" class="card-img-top homepagePlayers" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Eric Sagadin</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card player">
+        <img src="./assets/murg.jpg" class="card-img-top homepagePlayers" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Steven Murgia</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card player">
+        <img src="./assets/placeholder.png" class="card-img-top homepagePlayers" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">TBD</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card player">
+        <img src="./assets/placeholder.png" class="card-img-top homepagePlayers" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">TBD</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="playersButton">
+    <a href="./players.html">
+      <button>
+        <h6>Learn more about the players!</h6>
+      </button>
+    </a>
+  </div>
+
+  <!-- linking jquery and everything else for bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+    integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
