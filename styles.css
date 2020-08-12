@@ -32,6 +32,10 @@
     margin-right: auto;
 }
 
+.bio{
+    padding: 8px;
+}
+
 .card-img-top {
     margin-top: 90px;
     height: 270px;
