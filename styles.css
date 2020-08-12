@@ -114,13 +114,46 @@ h4 {
     text-align: center;
 }
 
-
 .carousel-item{
     height: 600px;
 } 
 
 .carousel-item img{
     height: 600px;
+}
+
+.TPCLOGO {
+    height: 40px !important;
+    border-radius: 10px;
+    opacity: 60%;
+}
+
+.courseTitle {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.courseHeader {
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+#deereRunInfo {
+    border: solid;
+    margin-top: 15px;
+}
+
+.byronImg {
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+#byronHills {
+    border: solid;
+    margin-top: 15px;
 }
 
 @media (min-width: 991px) {
@@ -154,5 +187,11 @@ h4 {
     } 
     .carousel-item img{
         height: 250px;
+    }
+    iframe{
+        width: 345px;
+    }
+    .byronImg{
+        width: 345px;
     }
 }
