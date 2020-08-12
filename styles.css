@@ -114,6 +114,15 @@ h4 {
     text-align: center;
 }
 
+
+.carousel-item{
+    height: 600px;
+} 
+
+.carousel-item img{
+    height: 600px;
+}
+
 @media (min-width: 991px) {
     .navbar {
         height: 110px;
@@ -139,5 +148,11 @@ h4 {
     }
     .playersImg {
         height: 270px;
+    }
+    .carousel-item{
+        height: 250px;
+    } 
+    .carousel-item img{
+        height: 250px;
     }
 }
