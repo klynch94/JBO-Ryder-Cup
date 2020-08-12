@@ -45,10 +45,6 @@
     text-align: center;
 }
 
-/* .playersImg {
-    height: 300px;
-} */
-
 .player {
     border: none;
 }
@@ -78,7 +74,7 @@ h6 {
 
 .card-title {
     position: absolute;
-    top: 10%;
+    top: 16%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -154,6 +150,7 @@ h4 {
 #byronHills {
     border: solid;
     margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 /* accomodations */
@@ -164,6 +161,7 @@ h4 {
 
 .houseImg{
     width: auto;
+    margin-bottom: 15px;
 }
 
 #directions{
@@ -178,6 +176,41 @@ h4 {
 
 .houseHeadings {
     text-decoration: underline;
+}
+
+/* about page */
+
+#aboutSection{
+    border: solid;
+    background-color: rgba(255, 255, 255, 0.516);
+    top: 25em;
+    left: 8em;
+    text-align: center;
+    margin-top: 250px;
+}
+
+#aboutField {
+    background-image: url("./assets/aboutimg.jpg");
+  /* Background image is centered vertically and horizontally at all times */
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+
+#aboutInfo{
+    text-align: center;
 }
 
 @media (min-width: 991px) {
@@ -228,5 +261,11 @@ h4 {
     }
     #houseDetails{
         display: block;
+    }
+    #aboutField{
+        height: 100%;
+    }
+    #aboutSection{
+        margin-top: 150px;
     }
 }
