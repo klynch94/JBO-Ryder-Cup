@@ -45,6 +45,14 @@ h3 {
     margin-top: 10px;
 }
 
+.PromoBoxedThumb {
+    border: solid;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 @media (min-width: 991px) {
     .navbar {
         height: 110px;
