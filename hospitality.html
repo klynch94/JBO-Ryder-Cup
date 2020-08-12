@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,10 @@
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="./index.html"><img src="assets/logo.png"></a>
+        <a class="navbar-brand" href="./index.html"><img class="brand" src="assets/logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,6 +43,53 @@
     </nav>
 
 
+    <div class="container">
+        <h2 id="houseTitle">
+            2020 Accomodations
+        </h2>
+        <div id="houseDetails" class="row">
+            <div id="houseInfo" class="col">
+                <h5 class="houseHeadings">About the house</h5>
+                <p>Pelican Crossing is located on the Mississippi River three miles north of LeClaire. The interior is
+                    spacious with two large bedrooms, a spacious living room with a sofa bed and a a trundle in the
+                    lower level. There’s one bathroom on the main level and one in the bedroom. The lighted deck is a
+                    perfect location to relax while fishing pole on your own private 30 x 40 ft. dock. We have poles and
+                    can help you if you’d like to give it a try! Swimming is not encouraged due to undercurrents.
+                    <p><b>The Space</b></p>
+                    <p>
+                        A private boat ramp and dock allows your party to relax and social distance. The views of the
+                        river are breathtaking.
+                        Guests have access to the main house minus the garage and basement.
+                    </p>
+                    <p><b>House Rules</b></p>
+                    <p>Please respect the neighbors by lowering the noise by 10:00.
+                        Children are welcome but please be aware this house sits on the river. Accidents happen. If
+                        something breaks please communicate.
+                        Please wipe down the kitchen counters, bag your garbage and strip your sheets from the used
+                        beds.</p>
+                </p>
+            </div>
+            <div class="col">
+                <div id="directions">
+                    <h5 class="houseHeadings">Directions</h5>
+                    <p><b>Address</b></p>
+                    <p>22899 Great River Road, Le Claire, IA 52753, United States</p>
+                    <p><b>Directions from host</b></p>
+                    <p>Pelican Crossing is off of highway 67 approximately 2 1/2 mikes north of LeClaire. The turn off is marked with a red and green buoy with a black anchor. Cross the railroad track and follow the road. We are 4 houses down. Address 22899 great river road.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <img class="houseImg img-fluid" src="assets/airbnb/water.jpg">
+                <img class="houseImg img-fluid" src="assets/airbnb/living.jpg">
+                <img class="houseImg img-fluid" src="assets/airbnb/kitchen.jpg">
+                <img class="houseImg img-fluid" src="assets/airbnb/house.jpg">
+            </div>
+        </div>
+    </div>
+
     <!-- linking jquery and everything else for bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -52,4 +101,5 @@
         integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

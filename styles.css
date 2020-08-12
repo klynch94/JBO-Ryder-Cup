@@ -156,6 +156,30 @@ h4 {
     margin-top: 15px;
 }
 
+/* accomodations */
+#houseTitle{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.houseImg{
+    width: auto;
+}
+
+#directions{
+    border: solid;
+    margin: 5px;
+    padding: 5px;
+}
+
+#houseDetails{
+    margin: 10px;
+}
+
+.houseHeadings {
+    text-decoration: underline;
+}
+
 @media (min-width: 991px) {
     .navbar {
         height: 110px;
@@ -177,7 +201,6 @@ h4 {
     }
     .homepagePlayers {
         height: 195px;
-        width: 195px;
     }
     .playersImg {
         height: 270px;
@@ -191,7 +214,19 @@ h4 {
     iframe{
         width: 345px;
     }
+    #videos{
+        text-align: center;
+    }
+    #byronPics {
+        text-align: center;
+    }
     .byronImg{
         width: 345px;
+    }
+    .brand {
+        height: 140px;
+    }
+    #houseDetails{
+        display: block;
     }
 }
