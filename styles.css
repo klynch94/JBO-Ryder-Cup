@@ -142,7 +142,9 @@ h4 {
 
 #deereRunInfo {
     border: solid;
+    width: auto;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .byronImg {
@@ -153,8 +155,10 @@ h4 {
 
 #byronHills {
     border: solid;
+    width: auto;
     margin-top: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 /* accomodations */
@@ -248,16 +252,22 @@ h4 {
         height: 250px;
     }
     iframe{
-        width: 345px;
+        width: 330px;
     }
     #videos{
         text-align: center;
+    }
+    #deereRunInfo{
+        margin: 15px 5px 0px 5px;
     }
     #byronPics {
         text-align: center;
     }
     .byronImg{
-        width: 345px;
+        width: 330px;
+    }
+    #byronHills{
+        margin: 15px 5px 10px 5px;
     }
     .brand {
         height: 140px;
